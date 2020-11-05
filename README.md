@@ -1,6 +1,6 @@
 # Spring Boot 기초
 
-### [J101. Spring Boot 개발 환경 만들기](https://www.youtube.com/watch?v=g-WBPxWUjuU&list=PLogzC_RPf25E-mfrKvl6jWHU8r1jxCZgq){:target="_blank"}
+[J101. Spring Boot 개발 환경 만들기](https://www.youtube.com/watch?v=g-WBPxWUjuU&list=PLogzC_RPf25E-mfrKvl6jWHU8r1jxCZgq){:target="_blank"}
 #### - JAVA8 설치  
 #### - MAVEN 설치
 #### - STS 설치
