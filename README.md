@@ -1,4 +1,4 @@
-# 닥치고 코딩 Spring Boot 기초
+# Spring Boot 기초
 
 ### <a href=#J101>J101. Spring Boot 개발 환경 만들기</a> 
 #### - JAVA8 설치  
