@@ -1,12 +1,10 @@
 # Spring Boot 기초
 
-### <a href=#J101>J101. Spring Boot 개발 환경 만들기</a> 
+### <a href="https://www.youtube.com/watch?v=g-WBPxWUjuU&list=PLogzC_RPf25E-mfrKvl6jWHU8r1jxCZgq" target="_blank">J101. Spring Boot 개발 환경 만들기</a> 
 #### - JAVA8 설치  
 #### - MAVEN 설치
 #### - STS 설치
 #### - STS MAVEN 설정  
-
-### https://www.youtube.com/watch?v=g-WBPxWUjuU&list=PLogzC_RPf25E-mfrKvl6jWHU8r1jxCZgq
 # <hr>
 
 ### <a href=#J102>J102. Spring Boot 빌드하고 WEB 띄우기</a>
