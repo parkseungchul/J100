@@ -90,7 +90,7 @@
 #### - 서버에 인증파일 업로드 후 웹에서 인증하고 인증서 다운로드 
 #### - OpenSSL 설치
 #### - OpenSSL 이용하여 인증서 변환  
-#### - application.yml에 인증서 등록 
+#### - application.yml 인증서 등록 
 #### - 서버에서 빌드 이후 접속 후에 https 확인
 # <hr>
  
