@@ -1,5 +1,4 @@
-# [Spring Boot 기초](https://www.youtube.com/playlist?list=PLogzC_RPf25E-mfrKvl6jWHU8r1jxCZgq)<-영상 바로 가기 클릭
-
+# [Spring Boot 기초](https://www.youtube.com/playlist?list=PLogzC_RPf25E-mfrKvl6jWHU8r1jxCZgq)
 ### [J101. Spring Boot 개발 환경 만들기]
 #### - JAVA8 설치  
 #### - MAVEN 설치
@@ -12,11 +11,11 @@
 #### - 컨트롤러 만들기
 #### - Html 만들기
 #### - 포트 변경하기
-#### - STS 에서 웹 기동
+#### - STS 에서 웹 기동 -> intelJ 로 변경
 #### - 빌드 이후 명령어로 웹 서버 기동
 # <hr>
 
-### [J103. Docker로 MYSQL, ORACLE 테스트 DB 구성]
+### [J103. Docker 로 MYSQL, ORACLE 테스트 DB 구성]
 #### - Docker MYSQL Container 설치와 사용자 만들기 
 #### - STS DBeaver Plug-in 설치와 MYSQL 접속해서 확인하기
 #### - Docker ORACLE Container 설치와 사용자 만들기  
