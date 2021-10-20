@@ -1,0 +1,9 @@
+server:
+  ssl:
+    enabled: true
+    key-store: file:/app/build/j007/src/main/resources/springcloud1.pfx
+    key-store-password: ccie6198
+    key-store-type: PKCS12
+    trust-store: file:/app/build/j007/src/main/resources/trust.jks
+    trust-store-password: ccie6198
+  port: 443
