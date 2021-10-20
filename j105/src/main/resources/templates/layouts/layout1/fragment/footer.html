@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+
+<footer th:fragment="footerFragment">
+
+FOOTER!
+
+	<!-공통으로 쓰는 JS 파일 -->
+	<script th:src="@{/standard/js/jquery-3.3.1.min.js}"></script>
+	<script th:src="@{/standard/js/bootstrap.min.js}"></script>
+
+	<!-- 컨텐츠에서 쓰는 JS 파일-->
+	<th:block layout:fragment="script"></th:block>
+</footer>

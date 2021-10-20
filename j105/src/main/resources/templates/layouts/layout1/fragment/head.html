@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="headFragment">
+
+	<meta charset="UTF-8" />
+
+	<!-- 컨텐츠페이지의 title 들어감 -->
+	<th:block layout:fragment="title"/>
+
+	<!-- 공통으로 쓰이는 css 파일-->
+	<link rel="stylesheet" th:href="@{/standard/css/bootstrap.min.css}" />
+
+	<!-- 컨텐츠페이지의 css 파일 -->
+    <th:block layout:fragment="css"></th:block>
+
+</head>

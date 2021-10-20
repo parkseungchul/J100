@@ -37,7 +37,7 @@
 # <hr>
 
 ### [J104_3. Spring Boot JPA 검색과 페이징 처리]
-#### - Repository에 Method 만들기
+#### - Repository Method 만들기
 #### - 부서명 검색
 #### - 부서명 오름차순 검색
 #### - 부서명 검색 결과 개수

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+Hello <span th:text="${single}"></span>
+
+<table>
+  <tr th:each="value, inter:${mulitple}">
+    <td th:text="${inter.index}">
+    <td th:text="${value}">
+  </tr>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layouts/layout1/multipleLayout">
+
+<th:block layout:fragment="title">
+    <title>Multiple</title>
+</th:block>
+
+<div class="container" layout:fragment="content">
+  내용 
+</div>
+
+<!-- 고유 CSS 추가 -->
+<th:block layout:fragment="css">
+	<link rel="stylesheet" th:href="@{/custom/css/multiple.css}"/>
+	<style>
+	.container {
+	    background-color: orange;
+	}
+	</style>
+</th:block>
+
+<!-- 고유 스크립트 추가 -->
+<th:block layout:fragment="script">
+    <script th:inline="javascript" th:src="@{/custom/js/multiple.js}"></script>
+    <script th:inline="javascript">
+    $(document).ready(function () {
+        console.log('multiple jquery ready');
+        jsCallTest();
+    });
+    
+    function jsCallTest(){
+    	alert('자바스크립트  만들기');
+    }
+    </script>
+</th:block>
