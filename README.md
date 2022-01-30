@@ -92,4 +92,11 @@
 #### - OpenSSL 이용하여 인증서 변환  
 #### - application.yml 인증서 등록 
 #### - 서버에서 빌드 이후 접속 후에 https 확인
+<pre><code>
+openssl pkcs12 -export -in certificate.crt -inkey private.key -out springcloud.pfx
+
+openssl pkcs12 -in springcloud.pfx -clcerts -nokeys -out springcloud.crt
+
+keytool -import -alias springcloud -file springcloud.crt -keystore trust.jks
+</code></pre>
 # <hr>
