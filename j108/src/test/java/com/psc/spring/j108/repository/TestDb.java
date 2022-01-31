@@ -10,6 +10,7 @@ import com.psc.spring.j108.db2.repository.DeptRepository2;
 import com.psc.spring.j108.db2.repository.EmpRepository2;
 import com.psc.spring.j108.service.DeptService;
 import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -44,7 +45,7 @@ public class TestDb {
     @Autowired
     DeptService deptService;
 
-    @Test
+    @BeforeEach
     public void pre(){
         empRepository1.deleteAll();
         empRepository2.deleteAll();
@@ -57,6 +58,9 @@ public class TestDb {
 
     @Test
     public void xaTest(){
+        DEPT1_EMP1_삽입();
+        DEPT2_EMP2_삽입();
+
         try{
             deptService.tranXATest();
         }catch (Exception e){
@@ -67,6 +71,8 @@ public class TestDb {
 
     @Test
     public void nonxaTest(){
+        DEPT1_EMP1_삽입();
+        DEPT2_EMP2_삽입();
         try{
             deptService.tranNonXATest();
         }catch (Exception e){
