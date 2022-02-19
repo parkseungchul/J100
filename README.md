@@ -11,7 +11,7 @@
    - STS MAVEN 설정  
 # <hr>
 
-### [J102. Spring Boot 빌드하고 WEB 띄우기]
+### J102. Spring Boot 빌드하고 WEB 띄우기
  - [강의 링크](https://www.youtube.com/watch?v=NZ--iB740JM&list=PLogzC_RPf25E-mfrKvl6jWHU8r1jxCZgq&index=2)
  - [소스 링크](https://github.com/parkseungchul/J100/tree/master/j102)
  - Spring Boot 프로젝트 만들기
