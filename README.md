@@ -31,6 +31,40 @@
    - STS DBeaver Plug-in 설치와 MYSQL 접속해서 확인하기
    - Docker ORACLE Container 설치와 사용자 만들기  
    - ORACLE 접속해서 확인하기
+<code>
+ - WINDOW    
+ docker run -d --name mysqlDB ^
+     -e MYSQL_DATABASE=j100^
+     -e MYSQL_USER=user01 ^
+     -e MYSQL_PASSWORD=user01 ^
+     -e MYSQL_ROOT_PASSWORD=password ^
+     -p 3306:3306 ^
+     -v D:\docker\mysql:/var/lib/mysql ^
+     mysql
+
+D:\Github\parkseungchul>docker exec -it mysqlDB bash
+bash-4.4# mysql -u root -p
+Enter password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 10
+Server version: 8.0.33 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create schema j103;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> grant all privileges on j103.* to 'user01'@'%';
+Query OK, 0 rows affected (0.00 sec)
+</code>
 # <hr>
 
 ### J104_1. Spring Boot JPA 기본 CRUD
